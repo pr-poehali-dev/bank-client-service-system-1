@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Login success TIMA34",
+      "method": "POST",
+      "path": "/",
+      "body": {"login": "TIMA34", "password": "2014"},
+      "expectedStatus": 200,
+      "expectedBody": {"token": "string"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
